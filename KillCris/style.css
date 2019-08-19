@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Blinker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Beth+Ellen&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 20vh;
+    background: gray;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header h1 {
+    width: 50vw;
+    height: 20vh;
+    text-align: center;
+    position: relative;
+    top: calc(1vh);
+    font-size: 50px;
+    font-family: 'Blinker', sans-serif;
+    color: green;
+}
+
+header h1 span {
+    font-family: 'Beth Ellen', cursive;
+    color: black;
+}
+
+#main {
+    background: green;
+    width: 80%;
+    height: 78vh;
+    margin: 2.5px 2.5px 2.5px 10px;
+    float: left;
+}
+
+#caja1 {
+    width: 100%;
+    height: 30vh;
+}
+
+#caja2 {
+    width: 100%;
+    height: 60vh;
+    background: red;
+}
+
+#texto3 {
+    width: 30%;
+    float: left;
+    height: 100%;
+}
+
+#texto4 {
+    width: 70%;
+    float: left;
+    height: 100%;
+}
+
+#texto4 section img {
+    width: calc(90%);
+    height: 300px;
+    display: block;
+    margin: calc(4%) auto;
+}
+
+#texto3 section {
+    text-align: justify;
+}
+
+#texto3 h2 {
+    text-align: center;
+}
+
+#texto1 {
+    padding: 30px;
+    width: 50%;
+    height: 50%;
+    float: left;
+    margin: auto;
+}
+
+#texto2 {
+    padding: 30px;
+    width: 50%;
+    height: 50%;
+    float: left;
+    margin: auto;
+}
+
+#caja1 section {
+    width: 300px;
+    margin: auto;
+}
+
+#caja1 article h2 {
+    text-align: center;
+}
+
+aside {
+    background: white;
+    width: 19%;
+    height: 78vh;
+    float: left;
+}
+
+#Seccion1 {
+    width: 100%;
+    height: 20vh;
+    background: aqua;
+    margin: 2px;
+}
+
+#Seccion2 {
+    width: 100%;
+    height: 40vh;
+    background: gray;
+    margin: 2px;
+}

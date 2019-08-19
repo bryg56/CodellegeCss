@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 12vh;
+    background-image: url("./images/header.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+header h1 {
+    width: 30vw;
+    height: 9vh;
+    font-size: 65px;
+    font-family: 'Raleway', sans-serif;
+}
+
+span {
+    color: rgb(16, 221, 16);
+}
+
+header section {
+    position: relative;
+    left: 100px;
+    color: rgb(11, 177, 11);
+    font-family: 'Raleway', sans-serif;
+}
+
+#cajaBack {
+    background-image: url("./images/cuidad.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    position: relative;
+}
+
+#Revista {
+    background: transparent;
+    width: 98.5%;
+    height: 90%;
+    position: absolute;
+    position: relative;
+    top: 12px;
+    left: 10px;
+    outline: 3px solid black;
+}
+
+#texto1 {
+    width: 20%;
+    height: 50%;
+    position: absolute;
+    color: white;
+    left: 1000px;
+    top: 70px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#texto1 h1 {
+    font-size: 70px
+}
+
+#texto1 h2 {
+    font-size: 20px;
+}
+
+#texto2 {
+    position: absolute;
+    top: 90%;
+    left: 1%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+#Caja1 {
+    width: 20%;
+    height: 45Vh;
+    background: rgb(196, 21, 50);
+    margin-top: 30px;
+    margin-left: 55px;
+    position: relative;
+    float: left;
+}
+
+#Caja1 section {
+    text-align: center;
+    margin: 5px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+#Circulo1 {
+    width: 70%;
+    height: 60%;
+    background: rgb(107, 4, 107);
+    border: 7px solid white;
+    border-radius: 700px;
+    position: absolute;
+    top: 70px;
+    left: 14%;
+}
+
+#Soni {
+    position: absolute;
+    top: 90%;
+    left: 50px;
+}
+
+#texto4 {
+    position: absolute;
+    top: 28%;
+    font-size: 45px;
+}
+
+#texto5 {
+    position: absolute;
+    top: 51%;
+    left: 85px;
+    font-size: 30px;
+}
+
+#Caja2 {
+    width: 20%;
+    height: 45Vh;
+    background: black;
+    margin-top: 30px;
+    margin-left: 55px;
+    position: relative;
+    float: left;
+}
+
+#Caja2 section {
+    text-align: center;
+    margin: 5px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+#Circulo2 {
+    width: 50%;
+    height: 45%;
+    background: black;
+    border: 7px solid rgb(6, 240, 6);
+    border-radius: 800px;
+    position: absolute;
+    top: 60px;
+    left: 26%;
+}
+
+#Soni2 {
+    position: absolute;
+    top: 65%;
+    font-size: 10px;
+}
+
+#texto8 {
+    position: absolute;
+    top: 90%;
+    left: 93px;
+    font-size: 10px;
+    color: green;
+}
+
+#texto9 {
+    position: absolute;
+    top: 93%;
+    left: 70px;
+    font-size: 10px;
+}
+
+#texto6 {
+    position: absolute;
+    top: 27%;
+    font-size: 25px;
+}
+
+#texto7 {
+    position: absolute;
+    top: 45%;
+    font-size: 15px;
+    left: 6px;
+}
+
+#Caja3 {
+    width: 20%;
+    height: 45Vh;
+    background: black;
+    margin-top: 30px;
+    margin-left: 55px;
+    position: relative;
+    float: left;
+}
+
+#Caja3 article section img {
+    width: calc(100%);
+    height: 45vh;
+}
+
+#Caja4 {
+    width: 20%;
+    height: 45Vh;
+    background-image: url("./images/hoja.jpg");
+    margin-top: 30px;
+    margin-left: 55px;
+    position: relative;
+    float: left;
+    padding: 30px;
+}
+
+#Titulo {
+    font-size: 40px;
+}
+
+#Caja4 section {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+#titulo2 {
+    font-size: 20px;
+}
