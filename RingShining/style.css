@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #240229
+}
+
+.loader {
+    width: 500px;
+    height: 500px;
+    background: black;
+    border-radius: 50%;
+}
