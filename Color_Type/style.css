@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Cedarville+Cursive|Lexend+Deca&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    width: auto;
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    font-family: 'Lexend Deca', sans-serif;
+    letter-spacing: 0.1em;
+    margin: 0;
+    padding: 0;
+    font-size: 8em;
+    /* overflow: hidden; */
+    text-align: center;
+}
+
+h1::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid #FFF;
+    background: linear-gradient(to right, blue, red, green, yellow, purple, pink);
+    -webkit-background-clip: text;
+    background: clip;
+    color: transparent;
+    animation: type 4s steps(9) infinite;
+}
+
+@keyframes type {
+    0% {
+        width: 0;
+    }
+    70% {
+        width: 100%;
+    }
+    90% {
+        width: 100%;
+    }
+    100% {
+        width: 0%;
+    }
+}
